@@ -1,0 +1,25 @@
+training save in path: ./work_dir/gta/vit_base_patch16_rope_reg1_gap_256.sbb_in1k/0516221136
+training start from None
+
+Model: vit_base_patch16_rope_reg1_gap_256.sbb_in1k
+{'input_size': (3, 256, 256), 'interpolation': 'bicubic', 'mean': (0.5, 0.5, 0.5), 'std': (0.5, 0.5, 0.5), 'crop_pct': 0.95, 'crop_mode': 'center'}
+Freeze model layers: False [0, 0, 0, 0]
+GPUs available: 1
+
+Image Size Query: (384, 384)
+Image Size Ground: (384, 384)
+Mean: (0.5, 0.5, 0.5)
+Std:  (0.5, 0.5, 0.5)
+
+Use custom sampling: True
+Query Images Test: 9067
+Gallery Images Test: 14640
+Train with weight? False k= 5
+
+Scheduler: cosine - max LR: 0.001
+Warmup Epochs: 0.1 - Warmup Steps: 179.3
+Train Epochs:  5 - Train Steps:  8965
+
+------------------------------[Zero Shot]------------------------------
+Extract Features and Compute Scores:
+Backend qtagg is interactive backend. Turning interactive mode on.
